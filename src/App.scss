@@ -1,0 +1,19 @@
+// Bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import '../node_modules/aos/src/sass/aos.scss';
+//base
+@import "../src/assets/style/base";
+//animation
+@import "../src/assets/style/animation";
+//Utilities
+@import "../src/assets/style/utilities";
+//main
+@import "../src/assets/style/main";
+//sidebar
+@import "../src/assets/style/sidebar";
+//form
+@import"../src/assets/style/form.scss";
+//form
+@import"../src/assets/style/menu.scss";
+//responsive
+@import "../src/assets/style/responsive";

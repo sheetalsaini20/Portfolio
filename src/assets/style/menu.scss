@@ -1,0 +1,81 @@
+.port-header {
+    .active {
+        color: var(--theme-color) !important;
+    }
+
+    svg {
+        font-size: 20px;
+        position: relative;
+        display: block;
+        transition: .3s;
+    }
+
+    a {
+        color: #999999;
+        cursor: pointer;
+        text-align: center;
+
+        &:hover {
+            svg {
+                color: var(--theme-color);
+            }
+
+            span {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        border: 1px solid #575757;
+        gap: 4px;
+        cursor: pointer;
+        transition: .3s;
+        background: #1f1f1f;
+        z-index: 99;
+    }
+}
+
+
+// desktop
+
+.dmenu {
+    border: 1px solid #575757;
+    border-radius: 30px;
+    position: fixed;
+    right: 68px;
+    top: 322px;
+    padding: 24px 0;
+    background: #1f1f1f;
+    z-index: 20;
+
+    .navbar-nav {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+
+        button {
+            background: transparent;
+        }
+
+        a {
+            display: block;
+            width: 55px;
+
+
+        }
+    }
+}

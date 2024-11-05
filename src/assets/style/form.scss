@@ -1,0 +1,43 @@
+.form-control,
+input:focus {
+    width: 100%;
+    border: none;
+    background: #272727 !important;
+    background-color: #272727 !important;
+    border-radius: 10px;
+    padding: 17px 20px;
+    font-size: 14px;
+    display: block;
+    color: #fff !important;
+    transition: 0.5s ease-in-out all;
+
+    &::placeholder {
+        color: #8b8b8b;
+
+    }
+
+    &:focus {
+        outline: 0;
+        box-shadow: none;
+        transition: 0.5s ease-in-out all;
+        border: 1px solid #8b8b8b
+    }
+}
+
+input:-internal-autofill-selected {
+    background: #272727 !important;
+    background-color: #272727 !important;
+}
+
+.theme-btn {
+    background-color: var(--theme-color);
+    border-radius: 10px;
+    font-size: 1.6rem;
+    padding: 15px;
+    font-family: var(--font-medium);
+
+    &:hover {
+        background-color: rgb(40 233 140 / 75%);
+        color: #000;
+    }
+}

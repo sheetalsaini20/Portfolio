@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--body-txt);
+    width: 100%;
+    font-family: var(--font-regular) !important;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background-color: var(--body-txt);
+    color: var(--color-bg)
+}
+
+// -------------------- Inter forn
+@font-face {
+    font-family: 'Inter_L';
+    src: url('../../../public/assets/fonts/Inter/Inter-Light.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Inter_R';
+    src: url('../../../public/assets/fonts/Inter/Inter-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Inter_M';
+    src: url('../../../public/assets/fonts/Inter/Inter-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Inter_SB';
+    src: url('../../../public/assets/fonts/Inter/Inter-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Inter_B';
+    src: url('../../../public/assets/fonts/Inter/Inter-Bold.ttf');
+    font-weight: 700;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}

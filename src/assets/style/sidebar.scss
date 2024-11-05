@@ -1,0 +1,86 @@
+.sidebar {
+    // width: 100%;
+    // border-radius: 30px;
+    // border: 1px solid #565656;
+    // left: 20px;
+    // top: 50%;
+    // padding: 50px;
+    // z-index: 10;
+}
+
+.my-card {
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid #565656;
+    position: fixed;
+    left: 20px;
+    // top: 50%;
+    // transform: translateY(-50%);
+    top: 11.5%;
+    padding: 50px 0 50px 50px;
+    height: fit-content;
+    z-index: 10;
+    max-width: var(--sidebar-width);
+
+}
+
+// my card
+.per_card {
+    overflow: auto;
+    padding-right: 50px;
+
+    &_header {
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        h4 {
+            font-size: 1.4rem;
+        }
+    }
+
+    &_profile {
+
+        img {
+            border-radius: 30px;
+            display: block;
+            margin: 56px 0;
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+    }
+
+    h3 {
+        font-size: 2.4rem;
+    }
+
+    .more-links {
+        ul {
+            // margin-bottom: 30px;
+
+
+            li {
+                a {
+                    display: block;
+                    width: 50px;
+                    height: 50px;
+                    line-height: 46px;
+                    text-align: center;
+                    border: 2px solid #565656;
+                    border-radius: 50%;
+                    color: #999999;
+                    font-size: 20px;
+                    transition: .3s;
+                }
+
+                &:hover {
+                    a {
+                        border-color: var(--theme-color);
+                        color: var(--theme-color);
+                    }
+                }
+            }
+        }
+    }
+}

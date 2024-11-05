@@ -1,0 +1,79 @@
+:root {
+    --color-bg: #1f1f1f;
+    --body-txt: #fff;
+    --grey-txt: #999999;
+    --theme-color: #28e98c;
+    --sidebar-width: 430px;
+    --sidebar-cta: #c6c6c6;
+    --font-light: "Inter_L"; // font wight 300
+    --font-regular: "Inter_R"; // font wight 400
+    --font-medium: "Inter_M"; // font wight 500
+    --font-bold: "Inter_SB"; // font wight 600
+    --font-semi-bold: "Inter_B"; // font wight 700 
+}
+
+img {
+    max-width: 100%;
+}
+
+// font family
+.text_L {
+    font-family: var(--font-light);
+}
+
+.text_R {
+    font-family: var(--font-regular);
+}
+
+.text_M {
+    font-family: var(--font-medium);
+}
+
+.text_B {
+    font-family: var(--font-bold);
+}
+
+.text_SB {
+    font-family: var(--font-semi-bold);
+}
+
+//custom
+.custom-container {
+    // max-width: 770px;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 50px;
+    max-width: calc(100% - var(--sidebar-width));
+    padding-left: 20rem
+}
+
+.py-90 {
+    padding: 90px 0;
+}
+
+// color 
+.grey-txt {
+    color: var(--grey-txt)
+}
+
+.grey-bg {
+    background-color: var(--grey-txt);
+}
+
+.theme-txt {
+    color: var(--theme-color);
+}
+
+a {
+    color: var(--body-txt);
+    text-decoration: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.no_data {
+    color: var(--grey-txt);
+    font-style: italic;
+}

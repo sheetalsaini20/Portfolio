@@ -1,0 +1,236 @@
+@media(max-width:2000px) {
+  .dmenu {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+@media (max-width: 1555px) {
+  :root {
+    --sidebar-width: 350px;
+  }
+
+  html {
+    font-size: 50%;
+  }
+
+  .py-90 {
+    padding: 30px 0;
+  }
+
+  .my-card {
+    padding: 30px 0 30px 30px;
+    top: 10%;
+
+    .per_card {
+      padding-right: 30px;
+    }
+  }
+
+  .custom-container {
+    padding-left: 10rem;
+  }
+
+}
+
+@media (max-width: 1300px) {
+  .main-heading {
+    font-size: 6rem !important;
+    line-height: normal !important;
+  }
+
+  .per_card {
+    &_header {
+
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
+
+@media(max-width:1200px) {
+  .menu-open {
+    &:after {
+      content: "";
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      background: #565656;
+      opacity: 0.5;
+    }
+
+  }
+
+  .port-header {
+
+    .navbar-toggler {
+      top: 8rem;
+      position: fixed;
+      transform: none !important;
+      right: -6rem;
+      transition: 0.5s ease-in-out all;
+
+      span {
+        background-image: url('../../../public/assets/images/cross.svg');
+        transition: 0.5s ease-in-out all;
+      }
+    }
+
+    .navbar-toggler.collapsed {
+      transition: 0.5s ease-in-out all;
+
+      span {
+        background-image: url('../../../public/assets/images/hum-burger.svg');
+        transition: 0.5s ease-in-out all;
+        width: 3em;
+        height: 3em;
+      }
+    }
+
+    .dmenu {
+      border: 0;
+      top: 0rem;
+
+      .navbar-nav {
+        a {
+          flex-direction: row-reverse;
+          width: 100%;
+          justify-content: start !important;
+          gap: 20px;
+        }
+      }
+
+    }
+
+    .navbar-collapse,
+    .navbar-collapse.collapsing {
+      position: absolute;
+      width: 300px;
+      margin: 0px 0 0 0;
+      padding: 50px;
+      padding-top: 125px;
+      right: -100px;
+      top: 0;
+      background: #191919;
+      list-style-type: none;
+      -webkit-font-smoothing: antialiased;
+      height: 115vh !important;
+      transform-origin: 0% 0%;
+      transition: transform 0.3s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+      overflow: auto;
+      margin-right: 0;
+      user-select: none;
+
+    }
+
+
+    .collapse:not(.show) {
+      display: block;
+      transform: translateX(100%);
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .my-card {
+    position: unset;
+    // max-width: 50%;
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .custom-container {
+    max-width: 100%;
+    padding-left: 0;
+  }
+
+  .main-portfolio {
+    padding: 50px 30px;
+    overflow-x: hidden;
+  }
+
+  .per_card_profile img {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .per_card {
+    &_header {
+
+      h1,
+      h4 {
+        text-align: center !important;
+      }
+
+      h4 {
+        margin-top: 8px;
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
+
+@media(max-width:767px) {
+  .main-portfolio {
+    padding: 50px 10px;
+  }
+}
+
+@media(max-width:450px) {
+  .project-modal {
+    .modal-content {
+      max-width: 90%;
+    }
+  }
+}
+
+@media (max-height: 750px) {
+  .per_card_profile {
+
+    img {
+      width: auto;
+      height: 185px;
+      margin: 32px auto;
+    }
+  }
+}
+
+@media(min-width:1201px) {
+  .dmenu {
+    .navbar-nav {
+      a {
+        span {
+          position: absolute;
+          transition: 0.3s;
+          font-size: 12px;
+          background: #404042;
+          right: 100%;
+          color: #fff;
+          display: block;
+          padding: 3px 8px;
+          border-radius: 5px;
+          visibility: hidden;
+          opacity: 0;
+
+          &:before {
+            content: '';
+            width: 10px;
+            height: 10px;
+            background: #404042;
+            position: absolute;
+            right: -3px;
+            top: 50%;
+            transform: rotate(54deg) skew(-8deg, -39deg);
+            margin-top: -5px;
+            z-index: -1;
+          }
+        }
+      }
+    }
+  }
+}
