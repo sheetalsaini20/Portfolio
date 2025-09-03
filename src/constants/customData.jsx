@@ -1235,53 +1235,272 @@ export const projects = [
         ]
     },
     {
-        title: 'UX',
-        data: [{
-            id: 8,
-            tags: ["UI/UX"],
-            projectBanner: "taboo/Game.png",
-            screenList: [
-                { url: "taboo/Login.png", title: "Login & Signup" },
-                { url: "taboo/gameplay.png", title: "User Dashboard - Manage/Create Games" },
-                { url: "taboo/Game.png", title: "Gameplay Screen" }
-            ],
-            projectName: "AnanatPe",
-            projectSubtitle: "Web-based Multiplayer Game for Friends & Families",
+        title: 'UI/UX',
+        data: [
+            {
+                id: 14,
+                tags: ["UI/UX"],
+                projectBanner: "UIUX/Mia_Luna_Cakes_Website/MIALUNA.webp",
+                screenList: [
+                    { url: "UIUX/Mia_Luna_Cakes_Website/MIALUNA.webp", title: 'Web ' },
+                    { url: "UIUX/Mia_Luna_Cakes_Website/Logo 2.webp", title: 'Logo ' },
+                    { url: "UIUX/Mia_Luna_Cakes_Website/Logo 1.webp", title: 'Logo' },
+                    { url: "UIUX/Mia_Luna_Cakes_Website/Emails.webp", title: 'Email Templates' },
+                ],
+                projectName: "Mia Luna Cakes Website",
+                projectSubtitle: "Website for a cake shop",
+                tool: "Figma",
+                projectType: ["Website", "Super Admin", "Logo", "Email's"],
+                btnTitle: "Open Figma",
+                projectLink: "https://www.figma.com/proto/PTiLNDMHLiVr4ctk6PCxzn/Mia_Luna_Cakes_Website-FE-14-?node-id=1-229&p=f&t=4Gyx6FZQBGsibndk-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+                description: "Mia Luna Cakes website design for browsing and ordering cakes online."
+            },
+            {
+                id: 10,
+                tags: ["UI/UX"],
+                projectName: "Leango Festival Themes",
+                projectSubtitle: "Banner designs for festive campaigns",
+                projectBanner: "UIUX/leango/theme01.webp",
+                screenList: [
+                    { url: "UIUX/leango/theme02.webp", title: 'Halloween Theme ' },
+                    { url: "UIUX/leango/theme03.webp", title: 'Halloween Theme' },
+                    { url: "UIUX/leango/theme04.webp", title: 'Diwali Theme' },
+                    { url: "UIUX/leango/theme05.webp", title: 'Christmas Theme' },
+                    { url: "UIUX/leango/theme01.webp", title: 'Halloween Theme ' },
+                ],
+                tool: "Figma",
+                projectType: ["Banner", 'Website', "Web Theme"],
+                btnTitle: "Open Figma",
+                otherLink: [
+                    { userApp: "https://www.figma.com/proto/O8kwjYwhpHGB1OeVfRe4kX/Leango-Themes-FE-10-?node-id=1-62", label: "Halloween" },
+                    { userApp: "https://www.figma.com/proto/O8kwjYwhpHGB1OeVfRe4kX/Leango-Themes-FE-10-?node-id=1-2", label: "Christmas" },
+                    { userApp: "https://www.figma.com/proto/O8kwjYwhpHGB1OeVfRe4kX/Leango-Themes-FE-10-?node-id=1-296", label: "Diwali" }
+                ],
+                description: "Festival campaign banner templates created for Leango, including Halloween, Christmas, and Diwali themes."
+            },
+            {
+                id: 4,
+                tags: ["UI/UX"],
+                projectBanner: "UIUX/GK4Every1 App UI/GK4Every1 App UI(FE-04).webp",
+                screenList: [
+                    { url: "UIUX/GK4Every1 App UI/Splash Screen.webp", title: "Splash Screen" },
+                ],
+                projectName: "GK4Every1 App UI",
+                projectSubtitle: "Mobile learning app for General Knowledge quizzes",
+                tool: "Figma",
+                projectType: ["Website", "Study App", "Mobile"],
+                btnTitle: "Open Figma",
+                projectLink:
+                    "https://www.figma.com/proto/eFz4pBIfqnvAifqxqgWWjH/GK4Every1-App-UI-FE-04-?node-id=1-221&p=f&t=xe0bZNMuaV1xc3Wy-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A270",
+                description:
+                    "GK4Every1 is a mobile learning app UI designed in Figma. It helps users improve their general knowledge through interactive quizzes, progress tracking, and engaging visuals. The design emphasizes a clean and modern interface tailored for mobile-first learning."
+            },
+            {
+                id: 13,
+                tags: ["UI/UX"],
+                projectBanner: "UIUX/TABOO/1.webp",
 
-            otherLink: [
-                { userApp: "https://groopgames.com/#/auth/login?redirectTo=/myadmin", label: "Admin" },
-                { userApp: "https://taboogame.offsureit.com/#/home", label: "Taboo Game Demo" }
-            ],
-            description: "A web-based version of the classic Taboo game, designed for friends and families to play together either in person or over video calls like Zoom or Google Meet. Players can create, purchase, and track games seamlessly. The project involved revamping an existing codebase, with a focus on UI enhancement, responsiveness, and maintainability, while preserving the core game logic.",
-            keyFeatures: [
-                <ul>
-                    <li>User authentication with login/signup.</li>
-                    <li>Dashboard to create buy and manage Taboo games.</li>
-                    <li>Interactive gameplay screen optimized for both desktop and mobile.</li>
-                    <li>Responsive layout suitable for video call play (Zoom Google Meet).</li>
-                    <li>Reusable styled components for scalability and maintainability.</li>
-                </ul>
-            ],
-            myRole: [
-                <ul>
-                    <li>Revamped the entire UI using Styled Components (v6).</li>
-                    <li>Replaced old CSS with modern reusable component-based styling.</li>
-                    <li>Ensured full responsiveness across devices.</li>
-                    <li>Improved layout structure and consistency while keeping game logic intact.</li>
-                </ul>
-            ],
-            techDetails: [
-                { label: "UI/UX Design", value: "Figma (references)" },
-                { label: "Front-end", value: "React.js (v18), Styled Components v6" },
-                { label: "Data Handling", value: "React Context API, REST APIs (Axios)" },
-                { label: "Libraries", value: "React Router v6, React Toastify" }
-            ],
-            tech: [
-                { name: "HTML5" },
-                { name: "CSS3" },
-                { name: "Styled Components" },
-                { name: "React.js" }
-            ]
-        },]
+                screenList: [
+                    { url: "UIUX/TABOO/2.webp", title: 'Taboo Game APP' },
+                    { url: "UIUX/TABOO/3.webp", title: 'Taboo Game APP' },
+                    { url: "UIUX/TABOO/4.webp", title: 'Taboo Game APP' },
+                    { url: "UIUX/TABOO/5.webp", title: 'Taboo Game APP' },
+                    { url: "UIUX/TABOO/405.webp", title: 'Taboo Game APP' },
+                    { url: "UIUX/TABOO/1.webp", title: 'Taboo Game APP' },
+                ],
+                projectName: "Taboo Gaming Screens",
+                projectSubtitle: "Mobile UI design for gaming app",
+                tool: "Figma",
+                projectType: ["Website", "Gaming App", "Mobile"],
+                btnTitle: "Open Figma",
+                projectLink: "https://www.figma.com/proto/ZKhkVuRlGGmn0I78u2wvb9/Taboo-Gaming--FE-13-?node-id=0-1&p=f&t=A5WLcC9B6qWNudhZ-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+                description: "Mobile app UI for Taboo game with engaging gaming screens."
+            },
+
+            {
+                id: 5,
+                tags: ["UI/UX"],
+                projectBanner: "UIUX/Pet_Adoption/Pet_Adoption.webp",
+                screenList: [
+                    { url: "UIUX/Pet_Adoption/Pet_Adoption.webp", title: "Splash Screen" },
+                    { url: "UIUX/Pet_Adoption/Single product page.webp", title: "Browse Pets" }
+                ],
+                projectName: "Pet Adoption",
+                projectSubtitle: "Mobile app for finding and adopting pets",
+                tool: "Figma",
+                projectType: ["Website", "Study App", "Mobile"],
+                btnTitle: "Open Figma",
+                projectLink: "https://www.figma.com/proto/gG8yT19VryrLTgOOW6fD1w/Pet_Adoption--FE-05-?node-id=0-1&p=f&t=OIEtg3Hh5itcs8kW-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+                description: "Pet Adoption is a mobile app UI designed to help users adopt pets easily with a clean onboarding, browsing, and adoption request flow."
+            },
+
+            {
+                id: 6,
+                tags: ["UI/UX"],
+                projectBanner: "UIUX/Mobile-onboarding/Mob_Onb.webp",
+                screenList: [
+                    { url: "UIUX/Mobile-onboarding/login.webp", title: "Login Screen" },
+                    { url: "UIUX/Mobile-onboarding/Sign upPage.webp", title: "Signup Flow" },
+                    { url: "UIUX/Mobile-onboarding/Reset Password.webp", title: "Reset Password" },
+                    { url: "UIUX/Mobile-onboarding/Confirmation Reset Password.webp", title: "Confirmation Reset Password" },
+                ],
+                projectName: "Mobile Onboarding",
+                projectSubtitle: "Login and signup UI with prototype linking",
+                tool: "Figma",
+                projectType: ["Website", "Study App", "Mobile"],
+                btnTitle: "Open Figma",
+                projectLink: "https://www.figma.com/proto/HG2eu328Y8QZRu9VNZEy0z/Mobile-Login-Signup--FE-06-?node-id=1-175&t=oAcFbR9YbSbLFkeP-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+                description: "Mobile Onboarding UI for smooth login/signup flows, designed with prototype linking for seamless experience."
+            },
+
+            {
+                id: 15,
+                tags: ["UI/UX"],
+                projectBanner: "UIUX/bim-deals.webp",
+                projectName: "Bim Deals",
+                projectSubtitle: "Deals & offers web template",
+                tool: "Figma",
+                projectType: ["Website", "Super Admin"],
+                btnTitle: "Open Figma",
+                projectLink: "https://www.figma.com/design/RLnSwGUqeQydKbPji3FudQ/Bim_Deals-Fe-16-?node-id=0-1&t=0jeojl1GKfOVZRuC-1",
+                description: "Bim Deals is a web design prototype focused on showcasing daily deals and offers in a clean layout."
+            },
+
+            {
+                id: 1,
+                tags: ["UI/UX"],
+                tool: "Figms",
+                projectBanner: "UIUX/AnanatPe.webp",
+                screenList: [
+                    { url: "UIUX/AnanatPe.webp", title: "Login & Signup" },
+                ],
+                projectName: "AnantPe",
+                projectType: "Website",
+                projectSubtitle: "Fintech platform for seamless payments and transactions",
+                projectLink: "https://www.figma.com/proto/skZ4fKJeA0d2J28br0ZZbT/Anantpe",
+                btnTitle: "Open Figms",
+                description:
+                    "AnantPe is a fintech UX project focused on designing an intuitive and seamless experience for payments, account management, and transaction tracking. The prototype demonstrates simplified onboarding, clean dashboard layouts, and accessible user flows.",
+            },
+            {
+                id: 2,
+                tags: ["UI/UX"],
+                projectBanner: "UIUX/onboarding/ONBOARDING.webp",
+                screenList: [
+                    { url: "UIUX/onboarding/ONBOARDING.webp", title: "Login" },
+                    { url: "UIUX/onboarding/Sign upPage.webp", title: "Register" },
+                    { url: "UIUX/onboarding/Reset Password.webp", title: "Forgot Password" },
+                    { url: "UIUX/onboarding/Confirmation Reset Password.webp", title: "Confirmation" }
+                ],
+                projectName: "Web Onboarding",
+                projectSubtitle: "Seamless onboarding flow for web applications",
+                tool: "Figma",
+                projectType: "Web Onboarding",
+                btnTitle: "Open Figms",
+                projectLink: "https://www.figma.com/proto/rhiliJGWyWTf1huuPX5ZHw/OnBording-FE-02-?node-id=6-46&page-id=0%3A1&scaling=contain&content-scaling=fixed",
+                description:
+                    "The Web Onboarding project focuses on creating a smooth and user-friendly onboarding experience for web applications. The design emphasizes clarity, step-by-step guidance, and a visually clean layout to ensure users complete the onboarding process without confusion."
+            },
+            {
+                id: 3,
+                tags: ["UI/UX"],
+                projectBanner: "UIUX/You And Me Shop.webp",
+                screenList: [
+                    { url: "UIUX/You And Me Shop.webp", title: "Homepage" },
+                ],
+                projectName: "You And Me Shop",
+                projectSubtitle: "Modern e-commerce web template design",
+                tool: "Figma",
+                projectType: "Website Template",
+                btnTitle: "Open Figma",
+                projectLink:
+                    "https://www.figma.com/design/34HBRDQQhojgsUuKWmoBTx/You-And-Me-Shop-template-FE-03-?node-id=1-2&t=oONpEIM8XGMtWQP7-1",
+                description:
+                    "“You And Me Shop” is an e-commerce template designed in Figma, offering a modern and clean UI for online shopping. It includes essential pages like homepage, product listing, product details, and checkout flow. The design focuses on usability, clear navigation, and a responsive-friendly layout."
+            },
+            {
+                id: 7,
+                tags: ["UI/UX"],
+                projectBanner: "UIUX/Common Sense/Common Sense.webp",
+                screenList: [
+                    { url: "UIUX/Common Sense/Common Sense.webp", title: 'Web site' },
+                    { url: "UIUX/Common Sense/login.webp", title: 'Admin Login' },
+                    { url: "UIUX/Common Sense/order.webp", title: 'All orders' },
+                    { url: "UIUX/Common Sense/rejected.webp", title: 'Rejected orders' },
+                    { url: "UIUX/Common Sense/completed.webp", title: 'Completed orders' },
+                ],
+                projectName: "Common Sense",
+                projectSubtitle: "Veg/Vegan restaurant web ordering system",
+                tool: "Figma",
+                projectType: ["Website", "Admin Pannel"],
+                btnTitle: "Open Figma",
+                otherLink: [
+                    { userApp: "https://www.figma.com/proto/eUdNUy4Lu2vNlqS7BvZvCK/CommonOIT_Sense--FE-07-?node-id=1-6&t=sbZQmgflOODPBgFp-0&scaling=min-zoom&content-scaling=fixed&page-id=1%3A62256&starting-point-node-id=1%3A68676", label: "Web" },
+                    { userApp: "https://www.figma.com/proto/eUdNUy4Lu2vNlqS7BvZvCK/CommonOIT_Sense--FE-07-?node-id=1-62257&t=tNZpTaAmxHR4BHyh-0&scaling=min-zoom&content-scaling=fixed&page-id=1%3A62256&starting-point-node-id=1%3A68676", label: "Admin Panel" }
+                ],
+                description: "Common Sense is a restaurant ordering and management system for vegan/vegetarian food, designed with both web ordering UI and admin panel screens."
+            },
+            {
+                id: 8,
+                tags: ["UI/UX"],
+                projectBanner: `sarasAI.webp`,
+
+                projectName: "Saras AI",
+                projectSubtitle: "AI-powered web application",
+                tool: "Figma",
+                projectType: ["Website", "Super Admin"],
+                btnTitle: "Open Figma",
+                otherLink: [
+                    {
+                        userApp: "https://www.figma.com/design/ilI5xoNp3VoF1IK7fk4uyg/Saras-AI--FE-08-?node-id=0-1&p=f&t=G3p5oXRcdzYJ1zKE-0", label: "Web"
+                    },
+                    { userApp: "https://www.figma.com/proto/ilI5xoNp3VoF1IK7fk4uyg/Saras-AI--FE-08-?node-id=1003-1887&p=f&t=G3p5oXRcdzYJ1zKE-0&scaling=min-zoom&content-scaling=fixed&page-id=1003%3A1867", label: "Admin Panel" }
+                ],
+                description: "Saras AI is a web UI prototype designed for AI-driven workflows and interactions."
+            },
+            {
+                id: 9,
+                tags: ["UI/UX"],
+                projectBanner: "UIUX/METERYARD.webp",
+                projectName: "Meteryard Real Estate",
+                projectSubtitle: "Real estate web platform",
+                tool: "Figma",
+                projectType: "Website",
+                btnTitle: "Open Figma",
+                projectLink: "https://www.figma.com/proto/AzUgD8rn4gxiVo15Rf414n/Meteryard-Real-Estate--FE-09-?node-id=1-4341&p=f&t=8V8qvh6Lg9mSuhfJ-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+                description: "Meteryard Real Estate website design prototype focusing on property browsing and client management."
+            },
+            {
+                id: 11,
+                tags: ["UI/UX"],
+                projectBanner: `change-therapy/main.webp`,
+                projectName: "ChangeTherapy.app",
+                projectSubtitle: "Therapy app web & admin panels",
+                tool: "Figma",
+                projectType: ["Website", "Super Admin"],
+                btnTitle: "Open Figma",
+                otherLink: [
+                    { userApp: "https://www.figma.com/proto/X0RIyG9KiyefqhXUO4K67X/ChangeTherapy.app-FE-11-?node-id=8-4028", label: "Web" },
+                    { userApp: "https://www.figma.com/proto/X0RIyG9KiyefqhXUO4K67X/ChangeTherapy.app-FE-11-?node-id=8-9703", label: "Admin" }
+                ],
+                description: "ChangeTherapy.app design prototype for web-based therapy sessions with an admin dashboard for management."
+            },
+            {
+                id: 12,
+                tags: ["UI/UX"],
+                projectBanner: "UIUX/IQF.webp",
+                projectName: "IQF",
+                projectSubtitle: "Web prototype",
+                tool: "Figma",
+                projectType: "Website",
+                btnTitle: "Open Figma",
+                projectLink: "https://www.figma.com/proto/TLnDfZbVBxklRn8i2LbdtP/IQF-FE-12-?node-id=1-19&p=f&t=JDhaiAwM7elUShTJ-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A19",
+                description: "IQF is a web design prototype crafted to support modern business needs."
+            },
+
+
+
+
+        ]
     }
 ];

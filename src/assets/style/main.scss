@@ -288,6 +288,7 @@
                 min-height: 350px;
                 height: 100%;
 
+
                 .heading-box {
                     width: 85%;
 
@@ -371,12 +372,15 @@
 }
 
 .project-image-box {
-    // min-height: 350px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
 
     .project-image {
-        border-radius: 10px;
+        border-radius: 0;
+        height: 100%;
+        ;
         object-fit: cover;
-        max-height: 200px;
         width: 100%;
         object-position: top;
         background-color: #1c1c1c;
@@ -523,9 +527,14 @@
             font-size: 2.3rem;
         }
 
-        .project-image {
+        .project-modal-screen {
+            max-height: 200px;
+            overflow: hidden;
             border-radius: 10px;
-            margin: 10px 0
+
+            .project-image {
+                margin: 10px 0;
+            }
         }
 
         .small-title {

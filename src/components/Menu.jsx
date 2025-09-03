@@ -6,6 +6,7 @@ import { LuUser2 } from 'react-icons/lu';
 import { MdOutlineFileCopy, MdOutlineMailOutline } from 'react-icons/md';
 import { PiShapesBold } from 'react-icons/pi';
 import { Link } from 'react-router-dom';
+import { ImgConst } from '../constants/ImgConst';
 
 export default function Menu() {
     const imageUrl = './assets/images/';
@@ -53,7 +54,8 @@ export default function Menu() {
                         onClick={() => setHideShow(!hideShow)}
                     >
                         <span class="navbar-toggler-icon">
-                            <img src={imageUrl + "cross.svg"} alt="" />
+                            {hideShow ? <img src={ImgConst?.crossIco} alt="" width={20} /> :
+                                <img src={ImgConst?.menuIco} alt="" width={30} />}
                         </span>
                     </button>
                     <Navbar.Collapse id="basic-navbar-nav"

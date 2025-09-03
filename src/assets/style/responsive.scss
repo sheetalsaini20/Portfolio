@@ -68,28 +68,33 @@
   .port-header {
 
     .navbar-toggler {
-      top: 8rem;
+      top: 6rem;
       position: fixed;
       transform: none !important;
       right: -6rem;
       transition: 0.5s ease-in-out all;
 
+      .navbar-toggler-icon {
+        width: unset;
+        height: unset;
+      }
+
       span {
-        background-image: url('../../../public/assets/images/cross.svg');
+        // background-image: url('../../../public/assets/images/cross.svg');
         transition: 0.5s ease-in-out all;
       }
     }
 
-    .navbar-toggler.collapsed {
-      transition: 0.5s ease-in-out all;
+    // .navbar-toggler.collapsed {
+    //   transition: 0.5s ease-in-out all;
 
-      span {
-        background-image: url('../../../public/assets/images/hum-burger.svg');
-        transition: 0.5s ease-in-out all;
-        width: 3em;
-        height: 3em;
-      }
-    }
+    //   span {
+    //     // background-image: url('../../../public/assets/images/hum-burger.svg');
+    //     transition: 0.5s ease-in-out all;
+    //     width: 3em;
+    //     height: 3em;
+    //   }
+    // }
 
     .dmenu {
       border: 0;
@@ -218,6 +223,25 @@
 }
 
 @media(max-width:450px) {
+  .main-portfolio {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .portfolio_sec {
+    .portfolio-flters {
+      ul {
+        padding: 0;
+
+        li {
+          button {
+            padding: 8px 10px;
+          }
+        }
+      }
+    }
+  }
+
   .project-modal {
     .modal-content {
       max-width: 100%;
