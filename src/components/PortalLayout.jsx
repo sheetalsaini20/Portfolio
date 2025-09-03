@@ -65,7 +65,7 @@ export default function PortalLayout() {
             <Menu
               activeTab={activeTab} />
           </div>
-          <div className="col-xxl-9  col-xl-10 main-body">
+          <div className="col-xxl-10 col-xl-10 main-body">
             <div className="custom-container">
               {/* <Outlet /> */}
               <Introduction id="intro" />

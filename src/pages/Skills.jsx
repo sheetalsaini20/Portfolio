@@ -1,7 +1,7 @@
 import React from "react";
 import { PiShapesBold } from "react-icons/pi";
 import CommonHeading from "../utills/CommonHeading";
-import { skills } from "../utills/customData";
+import { skills } from "../constants/customData";
 
 export default function Skills({ id }) {
   return (
@@ -17,15 +17,17 @@ export default function Skills({ id }) {
       <div class="row skills text-center">
         {skills?.map((item, index) => {
           return (
-            <div class="col-md-3 col-sm-6" data-aos={item?.animation}>
+            <div class="col-md-2 col-6" data-aos={item?.animation}>
               <div class="skill">
                 <div class="skill-inner">
-                  <img
-                    decoding="async"
-                    src={item?.image}
-                    alt="Figma"
-                    width={"60px"}
-                  />
+                  <div className="img-box">
+                    <img
+                      decoding="async"
+                      src={item?.image}
+                      alt="Figma"
+                      width={"60px"}
+                    />
+                  </div>
                   <h2 class="percent">{item?.precentage}%</h2>
                 </div>
                 <p class="name">{item?.title}</p>
@@ -33,7 +35,7 @@ export default function Skills({ id }) {
             </div>
           )
         })}
-        {/* <div class="col-md-3 col-sm-6" data-aos="fade-left">
+        {/* <div class="col-md-3 col-6" data-aos="fade-left">
           <div class="skill">
             <div class="skill-inner">
               <img
@@ -46,7 +48,7 @@ export default function Skills({ id }) {
             <p class="name">Figma</p>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6" data-aos="fade-bottom">
+        <div class="col-md-3 col-6" data-aos="fade-bottom">
           <div class="skill">
             <div class="skill-inner">
               <img
@@ -59,7 +61,7 @@ export default function Skills({ id }) {
             <p class="name">Framer</p>
           </div>
         </div>{" "}
-        <div class="col-md-3 col-sm-6" data-aos="fade-top">
+        <div class="col-md-3 col-6" data-aos="fade-top">
           <div class="skill">
             <div class="skill-inner">
               <img
@@ -72,7 +74,7 @@ export default function Skills({ id }) {
             <p class="name">Webflow</p>
           </div>
         </div>{" "}
-        <div class="col-md-3 col-sm-6" data-aos="fade-right">
+        <div class="col-md-3 col-6" data-aos="fade-right">
           <div class="skill">
             <div class="skill-inner">
               <img
@@ -85,7 +87,7 @@ export default function Skills({ id }) {
             <p class="name">React</p>
           </div>
         </div>{" "}
-        <div class="col-md-3 col-sm-6" data-aos="fade-left">
+        <div class="col-md-3 col-6" data-aos="fade-left">
           <div class="skill">
             <div class="skill-inner">
               <img
@@ -98,7 +100,7 @@ export default function Skills({ id }) {
             <p class="name">WordPress</p>
           </div>
         </div>{" "}
-        <div class="col-md-3 col-sm-6" data-aos="fade-bottom">
+        <div class="col-md-3 col-6" data-aos="fade-bottom">
           <div class="skill">
             <div class="skill-inner">
               <img

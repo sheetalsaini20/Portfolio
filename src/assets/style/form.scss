@@ -30,14 +30,14 @@ input:-internal-autofill-selected {
 }
 
 .theme-btn {
-    background-color: var(--theme-color);
+    background-color: var(--theme-color) !important;
     border-radius: 10px;
     font-size: 1.6rem;
     padding: 15px;
     font-family: var(--font-medium);
 
     &:hover {
-        background-color: rgb(40 233 140 / 75%);
+        background-color: rgb(40 233 140 / 75%) I !important;
         color: #000;
     }
 }

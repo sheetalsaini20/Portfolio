@@ -101,6 +101,10 @@
           width: 100%;
           justify-content: start !important;
           gap: 20px;
+
+          &:focus {
+            color: #999999;
+          }
         }
       }
 
@@ -176,6 +180,38 @@
 }
 
 @media(max-width:767px) {
+  .intro_sec {
+    .main-heading {
+      .profile-txt {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  .resume_sec {
+    .resume-timeline {
+      .item {
+        padding-left: 35px;
+
+        h3 {
+          font-size: 2rem;
+        }
+
+        &::before {
+          left: 0;
+        }
+
+        &:after {
+          left: 5px;
+        }
+      }
+    }
+  }
+
+  .main-heading {
+    font-size: 4rem !important;
+  }
+
   .main-portfolio {
     padding: 50px 10px;
   }
@@ -184,7 +220,7 @@
 @media(max-width:450px) {
   .project-modal {
     .modal-content {
-      max-width: 90%;
+      max-width: 100%;
     }
   }
 }

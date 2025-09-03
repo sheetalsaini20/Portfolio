@@ -29,6 +29,21 @@
     overflow: auto;
     padding-right: 50px;
 
+    .pro-txt {
+        color: #99a1af;
+    }
+
+    .available-heading {
+        font-size: 12px;
+
+        .animate-pulse {
+            width: 8px;
+            height: 8px;
+            background-color: var(--theme-color);
+            border-radius: 100%;
+        }
+    }
+
     &_header {
         h1 {
             font-size: 2.5rem;
@@ -59,9 +74,10 @@
         ul {
             // margin-bottom: 30px;
 
-
             li {
-                a {
+
+                a,
+                .ico-box {
                     display: block;
                     width: 50px;
                     height: 50px;
@@ -74,11 +90,39 @@
                     transition: .3s;
                 }
 
+
                 &:hover {
-                    a {
+
+                    a,
+                    .ico-box {
                         border-color: var(--theme-color);
                         color: var(--theme-color);
                     }
+                }
+            }
+
+            .hover-cont {
+                opacity: 0.5;
+                transition: 0.5s ease-in-out all;
+                cursor: pointer;
+
+                .ico-box {
+                    width: 30px;
+                    height: 30px;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 12px;
+
+                    svg {
+                        width: 12px;
+                        height: 12px;
+                    }
+                }
+
+                &:hover {
+                    opacity: 1;
                 }
             }
         }
