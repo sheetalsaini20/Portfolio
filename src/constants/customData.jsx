@@ -1238,14 +1238,14 @@ export const projects = [
         title: 'UX',
         data: [{
             id: 8,
-            tags: ["website"],
+            tags: ["UI/UX"],
             projectBanner: "taboo/Game.png",
             screenList: [
                 { url: "taboo/Login.png", title: "Login & Signup" },
                 { url: "taboo/gameplay.png", title: "User Dashboard - Manage/Create Games" },
                 { url: "taboo/Game.png", title: "Gameplay Screen" }
             ],
-            projectName: "Taboo Game",
+            projectName: "AnanatPe",
             projectSubtitle: "Web-based Multiplayer Game for Friends & Families",
 
             otherLink: [
