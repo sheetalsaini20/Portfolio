@@ -58,7 +58,7 @@ export default function Portfolio({ id }) {
         break;
 
       case "UI/UX":
-        filtered = allProjects.filter((p) => p.tags?.includes("UI/UX"));
+        filtered = allProjects.filter((p) => p.tags?.includes("Figma"));
         break;
 
       default:

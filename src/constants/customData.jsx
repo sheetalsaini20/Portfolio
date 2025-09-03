@@ -1239,7 +1239,7 @@ export const projects = [
         data: [
             {
                 id: 14,
-                tags: ["UI/UX"],
+                tags: ["Figma"],
                 projectBanner: "UIUX/Mia_Luna_Cakes_Website/MIALUNA.webp",
                 screenList: [
                     { url: "UIUX/Mia_Luna_Cakes_Website/MIALUNA.webp", title: 'Web ' },
@@ -1257,7 +1257,7 @@ export const projects = [
             },
             {
                 id: 10,
-                tags: ["UI/UX"],
+                tags: ["Figma"],
                 projectName: "Leango Festival Themes",
                 projectSubtitle: "Banner designs for festive campaigns",
                 projectBanner: "UIUX/leango/theme01.webp",
@@ -1280,7 +1280,7 @@ export const projects = [
             },
             {
                 id: 4,
-                tags: ["UI/UX"],
+                tags: ["Figma"],
                 projectBanner: "UIUX/GK4Every1 App UI/GK4Every1 App UI(FE-04).webp",
                 screenList: [
                     { url: "UIUX/GK4Every1 App UI/Splash Screen.webp", title: "Splash Screen" },
@@ -1297,7 +1297,7 @@ export const projects = [
             },
             {
                 id: 13,
-                tags: ["UI/UX"],
+                tags: ["Figma"],
                 projectBanner: "UIUX/TABOO/1.webp",
 
                 screenList: [
@@ -1319,7 +1319,7 @@ export const projects = [
 
             {
                 id: 5,
-                tags: ["UI/UX"],
+                tags: ["Figma"],
                 projectBanner: "UIUX/Pet_Adoption/Pet_Adoption.webp",
                 screenList: [
                     { url: "UIUX/Pet_Adoption/Pet_Adoption.webp", title: "Splash Screen" },
@@ -1336,7 +1336,7 @@ export const projects = [
 
             {
                 id: 6,
-                tags: ["UI/UX"],
+                tags: ["Figma"],
                 projectBanner: "UIUX/Mobile-onboarding/Mob_Onb.webp",
                 screenList: [
                     { url: "UIUX/Mobile-onboarding/login.webp", title: "Login Screen" },
@@ -1355,7 +1355,7 @@ export const projects = [
 
             {
                 id: 15,
-                tags: ["UI/UX"],
+                tags: ["Figma"],
                 projectBanner: "UIUX/bim-deals.webp",
                 projectName: "Bim Deals",
                 projectSubtitle: "Deals & offers web template",
@@ -1368,7 +1368,7 @@ export const projects = [
 
             {
                 id: 1,
-                tags: ["UI/UX"],
+                tags: ["Figma"],
                 tool: "Figms",
                 projectBanner: "UIUX/AnanatPe.webp",
                 screenList: [
@@ -1384,7 +1384,7 @@ export const projects = [
             },
             {
                 id: 2,
-                tags: ["UI/UX"],
+                tags: ["Figma"],
                 projectBanner: "UIUX/onboarding/ONBOARDING.webp",
                 screenList: [
                     { url: "UIUX/onboarding/ONBOARDING.webp", title: "Login" },
@@ -1403,7 +1403,7 @@ export const projects = [
             },
             {
                 id: 3,
-                tags: ["UI/UX"],
+                tags: ["Figma"],
                 projectBanner: "UIUX/You And Me Shop.webp",
                 screenList: [
                     { url: "UIUX/You And Me Shop.webp", title: "Homepage" },
@@ -1420,7 +1420,7 @@ export const projects = [
             },
             {
                 id: 7,
-                tags: ["UI/UX"],
+                tags: ["Figma"],
                 projectBanner: "UIUX/Common Sense/Common Sense.webp",
                 screenList: [
                     { url: "UIUX/Common Sense/Common Sense.webp", title: 'Web site' },
@@ -1442,7 +1442,7 @@ export const projects = [
             },
             {
                 id: 8,
-                tags: ["UI/UX"],
+                tags: ["Figma"],
                 projectBanner: `sarasAI.webp`,
 
                 projectName: "Saras AI",
@@ -1460,7 +1460,7 @@ export const projects = [
             },
             {
                 id: 9,
-                tags: ["UI/UX"],
+                tags: ["Figma"],
                 projectBanner: "UIUX/METERYARD.webp",
                 projectName: "Meteryard Real Estate",
                 projectSubtitle: "Real estate web platform",
@@ -1472,7 +1472,7 @@ export const projects = [
             },
             {
                 id: 11,
-                tags: ["UI/UX"],
+                tags: ["Figma"],
                 projectBanner: `change-therapy/main.webp`,
                 projectName: "ChangeTherapy.app",
                 projectSubtitle: "Therapy app web & admin panels",
@@ -1487,7 +1487,7 @@ export const projects = [
             },
             {
                 id: 12,
-                tags: ["UI/UX"],
+                tags: ["Figma"],
                 projectBanner: "UIUX/IQF.webp",
                 projectName: "IQF",
                 projectSubtitle: "Web prototype",
