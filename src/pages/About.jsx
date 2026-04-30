@@ -13,23 +13,15 @@ export default function About({ id }) {
                 an even   <span className='theme-txt'>better story</span>
             </h1>
             <p data-aos="fade-up" className='grey-txt w-85'>
-                Welcome to my personal portfolio website! I'm Sheetal Kapoor,
-                a passionate  about my work with a strong background in
-                HTML,CSS,SASS,Bootstrap, React Js, and some of graphic tools like Figma ,Photoshop  . With 4+ years of experience with these Skills.
+                Welcome to my personal portfolio website! I'm Sheetal Kapoor, a UI/UX Designer and Frontend Developer with a strong background in HTML, CSS, SCSS, Bootstrap, React.js, and design tools like Figma and Adobe Photoshop. With 6+ years of experience, I focus on creating responsive, user-friendly, and visually engaging digital experiences.
                 <br></br>
-                Throughout my career, I have worked on various projects that showcase my ability.
-                My commitment to excellence and continuous learning drives me to stay updated with the latest
-                industry trends and technologies, ensuring that my work is always at the cutting edge.
+                Throughout my career, I have worked on a variety of projects including web platforms, dashboards, and business websites, where I contributed to both design and development. I continuously strive to improve my skills and stay updated with the latest design trends and technologies to deliver modern and effective solutions.
                 <br></br>
-                In addition to my technical skills, I am a strong communicator and team player, adept at collaborating
-                with cross-functional teams to achieve project goals. I am also a problem-solver, always looking for efficient
-                and effective ways to tackle challenges and deliver exceptional results.
+                I enjoy collaborating with teams and working closely with stakeholders to understand requirements and translate ideas into meaningful user experiences. I approach every project with a problem-solving mindset, focusing on usability, performance, and clean design.
                 <br></br>
-                When I'm not working, I enjoy  exploring new technologies, reading, traveling,
-                or engaging in creative activities, which help me maintain a well-rounded and balanced life.
+                Beyond my work, I like exploring new tools, learning about emerging technologies, and enhancing my design skills. This helps me stay creative and bring fresh ideas into my projects.
                 <br></br>
-                Thank you for visiting my portfolio. I invite you to explore my work, learn more about my professional journey,
-                and connect with me for potential collaborations or opportunities.
+                Thank you for visiting my portfolio. Feel free to explore my work and connect with me for opportunities or collaborations.
             </p>
 
         </div >

@@ -123,6 +123,122 @@ export const projects = [
     {
         title: 'Websites',
         data: [
+            // Trading Pro Landing
+            // {
+            //     id: 5,
+            //     type: "website",
+            //     tags: ["website", "react"],
+            //     projectBanner: `UIUX/TRADING_BANNER.webp`,
+            //     projectName: 'Trading Pro Landing',
+            //     projectSubtitle: 'Landing page design for trading platform.',
+            //     projectLink: "https://www.figma.com/proto/kLh2HK5cOwgbBuBy5sxDmR/Trading-Website?node-id=28-2168&p=f&t=ZzyvDti14P4VrWzb-0&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&hide-ui=1",
+            //     description: "Trading Pro landing page designed in Figma and implemented with React.js, Tailwind CSS, and SCSS. The project focuses on modern UI, responsive layouts, and smooth user interactions for trading users.",
+            //     keyFeatures: [
+            //         <ul>
+            //             <li><b>UI/UX Design:</b> Custom landing page design from Figma with a modern layout.</li>
+            //             <li><b>Front-end:</b> Built with React.js, Tailwind CSS, and SCSS for scalable and maintainable code.</li>
+            //             <li><b>Responsive Design:</b> Mobile-first, fully responsive and cross-browser compatible.</li>
+            //             <li><b>Interactive Components:</b> Includes buttons, cards, and hover animations for enhanced UX.</li>
+            //             <li><b>Performance:</b> Optimized assets and clean, reusable code.</li>
+            //         </ul>
+            //     ],
+            //     myRole: [
+            //         <ul>
+            //             <li>Designed complete landing page UI/UX in Figma.</li>
+            //             <li>Developed responsive layouts using React.js, Tailwind, and SCSS.</li>
+            //             <li>Implemented hover effects and interactive components for better engagement.</li>
+            //             <li>Ensured clean code, performance optimization, and reusable components.</li>
+            //         </ul>
+            //     ],
+            //     techDetails: [
+            //         { label: "UI/UX Design", value: "Figma" },
+            //         { label: "Front-end", value: "React.js, Tailwind CSS, SCSS" },
+            //         { label: "Animations & Effects", value: "Tailwind transitions, hover effects" },
+            //         { label: "Components", value: "Custom React components" },
+            //         { label: "Utilities", value: "Responsive utilities, clean code practices" }
+            //     ],
+            //     tech: [{ name: "Figma" }, { name: "SCSS" }, { name: "CSS3" }, { name: "Tailwind CSS" }, { name: "React.js" }]
+            // },
+            // Peptechco Website
+            {
+                id: 3,
+                type: "website",
+                tags: ["website", "WordPress"],
+                projectBanner: "peptechco.png",
+                projectName: "Peptechco Website",
+                projectSubtitle: "Business Website with eCommerce & Dynamic Content",
+                projectLink: "https://peptechco.com/",
+                description: "A scalable and user-friendly business website built using WordPress, designed to manage dynamic content and support eCommerce functionality. The platform focuses on clean layout structure, performance, and easy content management for business needs.",
+
+                keyFeatures: [
+                    <ul>
+                        <li>Custom WordPress website built using Elementor</li>
+                        <li>Dynamic content management using ACF and Custom Post Types</li>
+                        <li>WooCommerce integration for product and order management</li>
+                        <li>Structured and clean layout for better readability</li>
+                        <li>Fully responsive design across all devices</li>
+                    </ul>
+                ],
+
+                myRole: [
+                    <ul>
+                        <li>Designed and developed complete website using WordPress and Elementor</li>
+                        <li>Implemented ACF and custom post types for flexible content management</li>
+                        <li>Integrated WooCommerce for product listing, cart, and checkout flow</li>
+                        <li>Created reusable sections and layouts for design consistency</li>
+                        <li>Optimized website for performance, responsiveness, and usability</li>
+                        <li>Ensured cross-browser compatibility and smooth user experience</li>
+                    </ul>
+                ],
+
+                tech: [
+                    { name: "WordPress" },
+                    { name: "Elementor" },
+                    { name: "ACF" },
+                    { name: "WooCommerce" },
+                    { name: "HTML5" },
+                    { name: "CSS3" }
+                ]
+            },
+            // Blooming Minds Website
+            {
+                id: 4,
+                type: "website",
+                tags: ["website", "WordPress"],
+                projectBanner: "blooming.png",
+                projectName: "Blooming Minds Website",
+                projectSubtitle: "Business Website with Clean UI & Structured Layout",
+                projectLink: "https://bloomingminds.deeprivercandy.com/",
+                description: "A clean and modern business website developed using WordPress and Elementor, focusing on structured content, readability, and responsive design. The goal was to create a visually consistent and easy-to-manage platform for the client.",
+
+                keyFeatures: [
+                    <ul>
+                        <li>Clean and minimal UI for better content presentation</li>
+                        <li>Structured layout with proper spacing and typography</li>
+                        <li>Reusable sections for consistent design across pages</li>
+                        <li>Responsive design optimized for all screen sizes</li>
+                        <li>Easy content management through Elementor</li>
+                    </ul>
+                ],
+
+                myRole: [
+                    <ul>
+                        <li>Developed full website using WordPress and Elementor</li>
+                        <li>Designed and implemented layouts directly in Elementor</li>
+                        <li>Maintained consistency in spacing, typography, and sections</li>
+                        <li>Structured content to improve readability and user experience</li>
+                        <li>Ensured responsiveness across mobile, tablet, and desktop</li>
+                        <li>Optimized layout and performance for smooth browsing</li>
+                    </ul>
+                ],
+
+                tech: [
+                    { name: "WordPress" },
+                    { name: "Elementor" },
+                    { name: "HTML5" },
+                    { name: "CSS3" }
+                ]
+            },
             // xeemu  studio 
             {
                 id: 2,
@@ -1238,6 +1354,18 @@ export const projects = [
         title: 'UI/UX',
         data: [
             {
+                "id": 28,
+                "tags": ["Figma"],
+                "projectBanner": "UIUX/CulinaryCurator.jpg",
+                "projectName": "Culinary Curator",
+                "projectSubtitle": "Food Ordering App (UI/UX Design)",
+                "tool": "Figma",
+                "projectType": ["Mobile APP", "Food Delivery"],
+                "btnTitle": "Open Figma",
+                "projectLink": "https://www.figma.com/proto/d9fgl7lH4De6z0bYDiM0El/The-Culinary-Curator--Food-app?node-id=1-756&t=uxs59WJkpYMb8N1P-1&hide-ui=1",
+                "description": "Culinary Curator is a mobile food ordering application designed to provide users with a smooth and intuitive experience for discovering, selecting, and ordering food. The goal of this project was to create a clean, visually engaging, and user-friendly interface that simplifies the entire ordering process."
+            },
+            {
                 id: 14,
                 tags: ["Figma"],
                 projectBanner: "UIUX/Mia_Luna_Cakes_Website/MIALUNA.webp",
@@ -1254,6 +1382,47 @@ export const projects = [
                 btnTitle: "Open Figma",
                 projectLink: "https://www.figma.com/proto/PTiLNDMHLiVr4ctk6PCxzn/Mia_Luna_Cakes_Website-FE-14-?node-id=1-229&p=f&t=4Gyx6FZQBGsibndk-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
                 description: "Mia Luna Cakes website design for browsing and ordering cakes online."
+            },
+
+            {
+                id: 7,
+                tags: ["Figma"],
+                projectBanner: "UIUX/Common Sense/Common Sense.webp",
+                screenList: [
+                    { url: "UIUX/Common Sense/Common Sense.webp", title: 'Web site' },
+                    { url: "UIUX/Common Sense/login.webp", title: 'Admin Login' },
+                    { url: "UIUX/Common Sense/order.webp", title: 'All orders' },
+                    { url: "UIUX/Common Sense/rejected.webp", title: 'Rejected orders' },
+                    { url: "UIUX/Common Sense/completed.webp", title: 'Completed orders' },
+                ],
+                projectName: "Common Sense",
+                projectSubtitle: "Veg/Vegan restaurant web ordering system",
+                tool: "Figma",
+                projectType: ["Website", "Admin Pannel"],
+                btnTitle: "Open Figma",
+                otherLink: [
+                    { userApp: "https://www.figma.com/proto/eUdNUy4Lu2vNlqS7BvZvCK/CommonOIT_Sense--FE-07-?node-id=1-6&t=sbZQmgflOODPBgFp-0&scaling=min-zoom&content-scaling=fixed&page-id=1%3A62256&starting-point-node-id=1%3A68676", label: "Web" },
+                    { userApp: "https://www.figma.com/proto/eUdNUy4Lu2vNlqS7BvZvCK/CommonOIT_Sense--FE-07-?node-id=1-62257&t=tNZpTaAmxHR4BHyh-0&scaling=min-zoom&content-scaling=fixed&page-id=1%3A62256&starting-point-node-id=1%3A68676", label: "Admin Panel" }
+                ],
+                description: "Common Sense is a restaurant ordering and management system for vegan/vegetarian food, designed with both web ordering UI and admin panel screens."
+            },
+            {
+                id: 8,
+                tags: ["Figma"],
+                projectBanner: `sarasAI.webp`,
+
+                projectName: "Saras AI",
+                projectSubtitle: "AI-powered web application",
+                tool: "Figma",
+                projectType: ["Website", "Super Admin"],
+                btnTitle: "Open Figma",
+                otherLink: [
+                    {
+                        userApp: "https://www.figma.com/design/ilI5xoNp3VoF1IK7fk4uyg/Saras-AI--FE-08-?node-id=0-1&p=f&t=G3p5oXRcdzYJ1zKE-0", label: "Web"
+                    },
+                    { userApp: "https://www.figma.com/proto/ilI5xoNp3VoF1IK7fk4uyg/Saras-AI--FE-08-?node-id=1003-1887&p=f&t=G3p5oXRcdzYJ1zKE-0&scaling=min-zoom&content-scaling=fixed&page-id=1003%3A1867", label: "Admin Panel" }
+                ],
+                description: "Saras AI is a web UI prototype designed for AI-driven workflows and interactions."
             },
             {
                 id: 10,
@@ -1279,28 +1448,12 @@ export const projects = [
                 description: "Festival campaign banner templates created for Leango, including Halloween, Christmas, and Diwali themes."
             },
             {
-                id: 4,
-                tags: ["Figma"],
-                projectBanner: "UIUX/GK4Every1 App UI/GK4Every1 App UI(FE-04).webp",
-                screenList: [
-                    { url: "UIUX/GK4Every1 App UI/Splash Screen.webp", title: "Splash Screen" },
-                ],
-                projectName: "GK4Every1 App UI",
-                projectSubtitle: "Mobile learning app for General Knowledge quizzes",
-                tool: "Figma",
-                projectType: ["Website", "Study App", "Mobile"],
-                btnTitle: "Open Figma",
-                projectLink:
-                    "https://www.figma.com/proto/eFz4pBIfqnvAifqxqgWWjH/GK4Every1-App-UI-FE-04-?node-id=1-221&p=f&t=xe0bZNMuaV1xc3Wy-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A270",
-                description:
-                    "GK4Every1 is a mobile learning app UI designed in Figma. It helps users improve their general knowledge through interactive quizzes, progress tracking, and engaging visuals. The design emphasizes a clean and modern interface tailored for mobile-first learning."
-            },
-            {
                 id: 13,
                 tags: ["Figma"],
-                projectBanner: "UIUX/TABOO/1.webp",
+                projectBanner: "UIUX/TABOO/main.jpg",
 
                 screenList: [
+                    { url: "UIUX/TABOO/main.jpg", title: 'Taboo Game APP' },
                     { url: "UIUX/TABOO/2.webp", title: 'Taboo Game APP' },
                     { url: "UIUX/TABOO/3.webp", title: 'Taboo Game APP' },
                     { url: "UIUX/TABOO/4.webp", title: 'Taboo Game APP' },
@@ -1364,6 +1517,34 @@ export const projects = [
                 btnTitle: "Open Figma",
                 projectLink: "https://www.figma.com/design/RLnSwGUqeQydKbPji3FudQ/Bim_Deals-Fe-16-?node-id=0-1&t=0jeojl1GKfOVZRuC-1",
                 description: "Bim Deals is a web design prototype focused on showcasing daily deals and offers in a clean layout."
+            }, {
+                "id": 28,
+                "tags": ["Figma"],
+                "projectBanner": "UIUX/TRADING_BANNER.webp",
+                "projectName": "Trading Pro Landing",
+                "projectSubtitle": "Landing page design for trading platform",
+                "tool": "Figma",
+                "projectType": ["Website", "Landing Page"],
+                "btnTitle": "Open Figma",
+                "projectLink": "https://www.figma.com/proto/kLh2HK5cOwgbBuBy5sxDmR/Trading-Website?node-id=28-2168&p=f&t=ZzyvDti14P4VrWzb-0&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&hide-ui=1",
+                "description": "Trading Pro landing page design with modern UI for showcasing trading features and attracting new users."
+            },
+            {
+                id: 4,
+                tags: ["Figma"],
+                projectBanner: "UIUX/GK4Every1 App UI/GK4Every1 App UI(FE-04).webp",
+                screenList: [
+                    { url: "UIUX/GK4Every1 App UI/Splash Screen.webp", title: "Splash Screen" },
+                ],
+                projectName: "GK4Every1 App UI",
+                projectSubtitle: "Mobile learning app for General Knowledge quizzes",
+                tool: "Figma",
+                projectType: ["Website", "Study App", "Mobile"],
+                btnTitle: "Open Figma",
+                projectLink:
+                    "https://www.figma.com/proto/eFz4pBIfqnvAifqxqgWWjH/GK4Every1-App-UI-FE-04-?node-id=1-221&p=f&t=xe0bZNMuaV1xc3Wy-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A270",
+                description:
+                    "GK4Every1 is a mobile learning app UI designed in Figma. It helps users improve their general knowledge through interactive quizzes, progress tracking, and engaging visuals. The design emphasizes a clean and modern interface tailored for mobile-first learning."
             },
 
             {
@@ -1385,7 +1566,7 @@ export const projects = [
             {
                 id: 2,
                 tags: ["Figma"],
-                projectBanner: "UIUX/onboarding/ONBOARDING.webp",
+                projectBanner: "UIUX/Onboarding/ONBOARDING.webp",
                 screenList: [
                     { url: "UIUX/onboarding/ONBOARDING.webp", title: "Login" },
                     { url: "UIUX/onboarding/Sign upPage.webp", title: "Register" },
@@ -1417,46 +1598,6 @@ export const projects = [
                     "https://www.figma.com/design/34HBRDQQhojgsUuKWmoBTx/You-And-Me-Shop-template-FE-03-?node-id=1-2&t=oONpEIM8XGMtWQP7-1",
                 description:
                     "“You And Me Shop” is an e-commerce template designed in Figma, offering a modern and clean UI for online shopping. It includes essential pages like homepage, product listing, product details, and checkout flow. The design focuses on usability, clear navigation, and a responsive-friendly layout."
-            },
-            {
-                id: 7,
-                tags: ["Figma"],
-                projectBanner: "UIUX/Common Sense/Common Sense.webp",
-                screenList: [
-                    { url: "UIUX/Common Sense/Common Sense.webp", title: 'Web site' },
-                    { url: "UIUX/Common Sense/login.webp", title: 'Admin Login' },
-                    { url: "UIUX/Common Sense/order.webp", title: 'All orders' },
-                    { url: "UIUX/Common Sense/rejected.webp", title: 'Rejected orders' },
-                    { url: "UIUX/Common Sense/completed.webp", title: 'Completed orders' },
-                ],
-                projectName: "Common Sense",
-                projectSubtitle: "Veg/Vegan restaurant web ordering system",
-                tool: "Figma",
-                projectType: ["Website", "Admin Pannel"],
-                btnTitle: "Open Figma",
-                otherLink: [
-                    { userApp: "https://www.figma.com/proto/eUdNUy4Lu2vNlqS7BvZvCK/CommonOIT_Sense--FE-07-?node-id=1-6&t=sbZQmgflOODPBgFp-0&scaling=min-zoom&content-scaling=fixed&page-id=1%3A62256&starting-point-node-id=1%3A68676", label: "Web" },
-                    { userApp: "https://www.figma.com/proto/eUdNUy4Lu2vNlqS7BvZvCK/CommonOIT_Sense--FE-07-?node-id=1-62257&t=tNZpTaAmxHR4BHyh-0&scaling=min-zoom&content-scaling=fixed&page-id=1%3A62256&starting-point-node-id=1%3A68676", label: "Admin Panel" }
-                ],
-                description: "Common Sense is a restaurant ordering and management system for vegan/vegetarian food, designed with both web ordering UI and admin panel screens."
-            },
-            {
-                id: 8,
-                tags: ["Figma"],
-                projectBanner: `sarasAI.webp`,
-
-                projectName: "Saras AI",
-                projectSubtitle: "AI-powered web application",
-                tool: "Figma",
-                projectType: ["Website", "Super Admin"],
-                btnTitle: "Open Figma",
-                otherLink: [
-                    {
-                        userApp: "https://www.figma.com/design/ilI5xoNp3VoF1IK7fk4uyg/Saras-AI--FE-08-?node-id=0-1&p=f&t=G3p5oXRcdzYJ1zKE-0", label: "Web"
-                    },
-                    { userApp: "https://www.figma.com/proto/ilI5xoNp3VoF1IK7fk4uyg/Saras-AI--FE-08-?node-id=1003-1887&p=f&t=G3p5oXRcdzYJ1zKE-0&scaling=min-zoom&content-scaling=fixed&page-id=1003%3A1867", label: "Admin Panel" }
-                ],
-                description: "Saras AI is a web UI prototype designed for AI-driven workflows and interactions."
             },
             {
                 id: 9,

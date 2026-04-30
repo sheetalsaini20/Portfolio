@@ -1,0 +1,387 @@
+*{margin:0px;
+padding:0px;
+    
+}
+
+body,html{
+font-family: 'Helvetica','Verdana';
+}
+img {max-width:100%;}
+.textwidget {
+    font-size: 14px;
+}
+.item h5 {
+    padding: 10px 0px;
+    text-align: justify;
+    line-height: 20px;
+}
+/*******************navigation***********************************/
+
+#navi nav.navbar{
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+/*****padding:20px 0px !important;***/
+}
+
+#navi nav.navbar.shrink {
+padding: 3px 22px;
+  background:#ffff;
+}
+#navi .navbar-default {
+    background: #fff;
+    border:0;
+    padding-top: 30px;
+}
+#navi .navbar-brand img{
+	/*padding: 17px 0px;*/
+	
+    width: auto;
+}
+#navi 
+	.navbar-nav>li>a {
+   font-size: 16px;
+padding: 23px 22px;
+    text-transform: uppercase; 
+    font-weight: 700;
+}
+#navi .navbar-default .navbar-nav>li>a {
+    color: #000;
+}
+#navi .navbar-sticky {
+   padding: 15px 60px;
+	font-size:18px;
+}
+	.navbar-toggle {
+    position: relative;
+    float: left;
+	/*margin-top:60px**/
+	}
+
+#navi .zero{
+    color:#ec6560;
+}
+/**********************banner***********************/
+  #banner{
+           background:url(../img/bann.png);
+           background-size:cover;
+           /***background-attachment:fixed;***/
+position: relative;
+    top: 118px;
+padding:150px 0px;
+           }
+#banner h1{
+font-size:44px;
+/**padding-top:100px;****/
+    margin-bottom: 8px;
+    line-height: 1.15;
+    color: #ffff;
+}
+#banner p{
+font-size:20px;
+padding-top:20px;
+    margin-bottom: 8px;
+    line-height: 1.15;
+    color: #ffff;
+}
+#banner button.btn.btn-secondary {
+    background: #ec6560;
+    color: #ffff;
+    padding: 8px 22px;
+    font-weight: bold;
+    margin-top: 43px;
+}
+#banner button.btn.btn-secondary:hover {
+   border: 1px solid;
+    background: none;
+}
+/**************************poduct**************************/
+.products{
+margin-top:200px}
+
+.products h3{
+    margin-bottom: 38px;
+    line-height: 1.15;
+}
+.products button.btn.btn-secondary{
+    background: none;
+    border: 1px solid;
+    color: #2e3245;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: 1px solid #2e3245;
+    padding: 0 26px;
+    display: inline-block;
+    background-color: #fff;
+    outline: none;
+    transition: all 0.3s;
+  /*** margin-left: 72px;***/
+    margin-top: 30px;
+}
+
+.products button.btn.btn-secondary:hover{
+    background:#ec6560;
+    color: #ffff;
+      /**font-weight: bold;*/
+border:0;
+
+} 
+.products button.btn.btn-secondary.center {
+    margin-top: 63px;
+}
+/********************* Shopping Demo-6 **********************/
+.product-grid6,.product-grid6 .product-image6{overflow:hidden}
+.product-grid6{font-family:'Open Sans',sans-serif;text-align:center;position:relative;
+    border: 1px solid #80808026;
+    border-radius: 4px;
+    padding-bottom: 20px;}
+.product-grid6 .product-image6 a{display:block}
+.product-grid6 .title a{color:#000}
+.product-grid6 .title a:hover{color:#2e86de}
+.product-grid6 .price{font-size:18px;font-weight:600;color:#2e86de}
+.product-grid6 .price span{color:#999;font-size:15px;font-weight:400;text-decoration:line-through;margin-left:7px;display:inline-block}
+.product-grid6 .social{background-color:#fff;width:100%;padding:0;margin:0;list-style:none;opacity:0;transform:translateX(-50%);position:absolute;bottom:-50%;left:50%;z-index:1;transition:all .5s ease 0s}
+@media only screen and (max-width:990px){.product-grid6{margin-bottom:30px}
+}
+
+/************crsl******************/
+.crsl{
+background:#ec6560;
+margin-top:	60px;
+color:#ffff;
+}
+
+section {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+/******************brand**************/
+.brd{
+     margin-top:60px;
+}
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+/*#fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+}*/
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #e84a64;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+/*******#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+background:url('../img/cl.jpg');
+background-size:cover;
+}****************/
+
+/*************************fafa*****************/
+.fafa{
+border-bottom:1px solid  #dddddd;
+border-top:1px solid  #dddddd;
+margin-top:39px;
+padding:9px 0px;
+}
+
+.fafa img{
+    width: 42px;
+}
+.fafa li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+/******form***************/
+.space {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.bottom .item:nth-child(2) p:first-child {
+    margin-bottom: 29px;
+}
+.space .bottom .item {
+    border-bottom: none;
+    padding-top: 0;
+}
+.space .mc4wp-form {
+    margin: 1em 0;
+}
+.space .form-group {
+    margin-bottom: 10px;
+}
+.space  form input.form-control {
+    height: 42px;
+    padding-left: 45px;
+}
+.space form input.email {
+    background: url(../img/icon-email.png) left 15px center no-repeat #fff;
+    background-size: 18px;
+}
+.space form input.form-control {
+    height: 42px;
+    padding-left: 45px;
+}
+
+.space form input.postcode {
+    background: url(../img/icon-location.png) left 14px center no-repeat #fff;
+    background-size: 18px;
+}
+.space form input.form-control{
+    border-radius: 0;
+    font-size: 14px;
+}
+.space .menu li {
+    margin-bottom: 15px;
+}
+.space a {
+    color: #222222;
+    text-decoration: none;
+    font-weight: 400;
+}
+.space #lvly_sign_up_footer {
+    background-color: #ec6560;
+    color: #fff;
+    border: none;
+}
+.shop-now, input[type="submit"],form input.submit{
+    color: #2e3245;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: 1px solid #2e3245;
+    padding: 0 26px;
+    display: inline-block;
+    background-color: #fff;
+    outline: none;
+    transition: all 0.3s;
+}
+ .submit {
+    margin-top: 15px;
+}
+.copyright {
+    margin-bottom: 30px;
+    font-size: 11px;
+}
+/********responsive****************/
+@media (min-width: 685px) and ( max-width:995px){
+.navbar-nav {
+    margin: 0;
+    float: right;
+}
+#navi .navbar-sticky {
+  display:none
+}
+#navi 
+ .navbar-nav>li>a {
+    padding: 23px 18px;
+}
+#navi .navbar-brand img {
+    padding: 52px 0px;
+    width: 159px;
+}
+.products .top{margin-top:30px}
+}
+@media (max-width:760px ){
+	/***navigation****/
+	
+#navi .navbar-sticky {
+    padding:0px 20px;
+	float:right;
+    position: relative;
+    top: -56px;
+}
+	
+#navi .navbar-brand img{
+	padding: 0px;
+    width: 145px;
+    position: relative;
+    top: -12px;
+
+}	
+#navi nav.navbar.shrink {
+    padding: 2px 0px;
+    background: #e0dfdf;
+    height: 13%;
+   /** position: relative;***/
+    bottom: 16px;
+    background: #e0dfdf;
+}
+#navi .navbar-brand {
+	float: none;
+}
+.products {
+    margin-top: 150px;
+}
+button.btn.btn-secondary.center {
+  /**  margin-left: 36px ;
+    ***/
+    margin-top:0px !important;
+}
+.products h3 {
+    margin-bottom: 8px;
+    margin-top: 38px;
+}
+#banner {
+   
+    padding: 40px 0px;
+}
+/*******.products button.btn.btn-secondary {
+    margin-left: 88px;
+    margin-top: -17px;
+}****************/
+.products .top{margin-top:30px}
+}
+@media (max-width:1025px){
+#navi .navbar-nav>li>a {
+    padding: 23px 13px;
+}
+}
+
+
+
+
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+    padding-top: 25px;
+}
+.form{
+    /* padding: 0px 41px; */
+    padding-left: 38px;
+    padding-top: 10px;
+}
+.qk {
+    padding-top: 10px;
+}

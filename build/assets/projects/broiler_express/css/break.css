@@ -1,0 +1,181 @@
+
+body{
+    margin:0 auto;
+    padding: auto;font-family:Poppins;
+	background-image:url(../img/yellow.jpg);
+	background-size:cover;
+}
+
+img {
+    max-width:100%;
+}
+/*********banner*******************/
+.banner img{
+	       width:100%;
+           padding-top:14px
+		}
+		
+		/**************************first***************************/
+		.first .menu_bg{
+			     background:#8a181a;
+				 margin-top:10px;
+    border-radius: 34px;
+	padding-bottom:50px
+		}
+		/*.first .menu_bg:before{
+			     position:absolute;
+				 content:'';
+				 background-image:url(../img/row.png);
+				    width: 100%;
+    height: 154px;
+	
+    bottom: 16px;
+    left: -2px;
+		}*/
+		.first .menu_bg h2{
+			color:#fff;
+			text-shadow:2px 2px red;
+			text-align:center;
+	font-weight:bold
+		}
+		.first h6,h4{
+			position:relative;
+			z-index:999;
+			color:#fdbe20;
+			text-align:center;
+		}
+		.first .menu_bg p{
+    font-family: Lobster;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px red;
+	text-align:center;
+		}
+		.first .menu_bg span{
+	float:right;
+	color:#fff
+		}
+		.first .menu_bg ol,h5{
+	color:#fff;
+	font-weight:500
+		}
+		.first .menu_bg h5{
+	    padding-left:40px
+		}
+		.first .menu_bg .left{
+			border-right:2px solid #0000001c
+		}
+		/**********************************second***************************/
+		.second .row{
+			background:#fff1e3;
+    border-radius: 34px;
+	margin-top:60px;
+	
+	padding-bottom:20px
+		}
+		
+		.second p{
+    font-family: Lobster;
+    font-size: 25px;
+    color:red ;
+    text-shadow: 2px 2px #fff1e3;
+	text-align:center;
+    position: relative;
+    top: -22px;
+		}
+		
+		.second span{
+	float:right;
+	font-weight:500
+		}
+		.second ol{
+	font-weight:500
+		}
+		.second .left{
+			border-right:2px solid #0000001c
+		}
+		/**********************************third***************************/
+		.third .row{
+			background:#fff1e3;
+    border-radius: 34px;
+	margin-top:60px;
+	
+	padding-bottom:20px
+		}
+		
+		.third p{
+    font-family: Lobster;
+    font-size: 25px;
+    color:red ;
+    text-shadow: 2px 2px #fff1e3;
+	text-align:center;
+    position: relative;
+    top: -22px;
+		}
+		
+		.third span{
+	float:right;
+	font-weight:500
+		}
+		.third ol{
+	font-weight:500;
+	
+	list-style:none;
+		}
+		.third .left{
+			border-right:2px solid #0000001c
+		}
+		/**********************************fourth***************************/
+		.fourth .row{
+			background:#fff1e3;
+    border-radius: 34px;
+	margin-top:60px;
+	
+	padding-bottom:20px
+		}
+		
+		.fourth p{
+    font-family: Lobster;
+    font-size: 25px;
+    color:red ;
+    text-shadow: 2px 2px #fff1e3;
+	text-align:center;
+    position: relative;
+    top: -22px;
+		}
+		
+		.fourth span{
+	float:right;
+	font-weight:500
+		}
+		.fourth ol{
+	font-weight:500;
+	list-style:none;
+		}
+		.fourth .left{
+			border-right:2px solid #0000001c
+		}
+		.fourth h5{
+			color:#000;
+			text-align:center;
+			font-weight:500
+		}
+		
+		
+		
+/*****************responsive***************/
+@media (max-width:600px){
+	.first .menu_bg h2 {
+    font-size:16px
+}
+	.first h4 {
+    font-size:16px
+}
+.first h6 {
+   font-size:12px
+}
+	.first,.second,.third,.fourth ol, h5 {
+    font-weight: 500;
+    font-size: 12px;
+}
+}

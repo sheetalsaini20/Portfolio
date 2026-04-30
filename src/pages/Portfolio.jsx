@@ -57,7 +57,7 @@ export default function Portfolio({ id }) {
         });
         break;
 
-      case "UI/UX":
+      case "Figma":
         filtered = allProjects.filter((p) => p.tags?.includes("Figma"));
         break;
 
@@ -310,7 +310,6 @@ export default function Portfolio({ id }) {
           {selectedItem?.otherLink &&
             <div className="d-flex justify-content-between flex-wrap pro-web ps-md-3  my-5 pro-data ">
               {selectedItem?.otherLink?.map((tech, techIndex) => {
-                console.log(tech.userApp, "userApp");
 
                 return (
                   <div className="d-block">
@@ -334,7 +333,7 @@ export default function Portfolio({ id }) {
         <Modal.Footer className="project-footer">
           <div className="project-footer-link">
             <a href={selectedItem?.projectLink ? selectedItem?.projectLink : selectedItem?.otherLink[0].userApp} target="_blank">
-              {selectedItem?.tags?.includes("UI/UX") ? selectedItem?.btnTitle : "Open Project"}
+              {selectedItem?.tags?.includes("Figma") ? selectedItem?.btnTitle : "Open Project"}
               <FaExternalLinkAlt className="ms-3" />
             </a>
           </div>
